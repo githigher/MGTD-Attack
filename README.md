@@ -10,10 +10,7 @@ This repository contains resources of our paper:
 
 2. Run
 ```
-python evaluation/eval_accuracy.py \
-    --detector hc3 \
-    --tests ./output/hc3/**/*.jsonl \
-    --output_file /tmp/hc3_evaluation.csv
+python -m evaluation.eval_accuracy --detector hc3 --tests ./output/hc3/**/*.jsonl --output_file ./tmp/hc3_evaluation.csv
 ```
 
 
